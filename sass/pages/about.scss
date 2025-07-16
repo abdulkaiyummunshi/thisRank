@@ -1,0 +1,115 @@
+.about_thisrank{
+    background-color: $--nine;
+    .image{
+        border-radius: 312px 312px 0 0;
+        max-width: 623px;
+        width: 100%;
+        height: 762px;
+        @include sm{
+            height: fit-content;
+        }
+        position: relative;
+        img{
+            border-radius: 312px 312px 0 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .anniversary_card{
+        background-color: $--p5;
+        box-shadow: 0 5px 11px -1px rgba(19, 16, 34, 0.03), 0 5px 24px -1px rgba(19, 16, 34, 0.05);
+        font-family: $--third-family;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: $--white;
+        width: 278px;
+        height: 102px;
+        position: absolute;
+        top: 75px;
+        right: -48px;
+        @media (min-width: 1280px) and (max-width: 1400px){
+            right: 0px;
+        }
+        @include nesthubmax{
+            // top: 50%;
+            right: 0px;
+            // @include transform(50%, -50%);
+        }
+        @include nesthub{
+            top: 50%;
+            right: 50%;
+            @include transform(50%, -50%);
+        }
+        @include md{
+            top: 50%;
+            right: 50%;
+            @include transform(50%, -50%);
+        }
+        @include sm{
+            top: 50%;
+            right: 50%;
+            @include transform(50%, -50%);
+        }
+        @include flex(row, flex-start, center);
+        padding-left: 59px;
+        @include border-radius(5px);
+        p{
+            font-family: $--third-family;
+            font-weight: 700;
+            font-size: 24px;
+            text-transform: capitalize;
+            color: $--white;
+            line-height: 30px;
+        }
+    }
+}
+
+.social_area{
+    ul{
+        padding: 0;
+        margin: 0;
+        @include flex(row, flex-start, center);
+        gap: 6px;
+        li{
+            a{
+                width: 40px;
+                height: 40px;
+                display: block;
+                line-height: 40px;
+                text-align: center;
+                @include border-radius(5px);
+                background-color: transparent;
+                color: $--white;
+                @include transition(0.4s);
+                border: 1px solid $--two;
+                font-family: $--font4;
+                font-weight: 400;
+                font-size: 16px;
+                &:hover{
+                    background-color: $--white;
+                    color: $--nine;
+                }
+            }
+        }
+    }
+}
+.find_thisrank{
+    background-color: $--seven;
+    .image{
+        border-radius: 5px;
+        max-width: 680px;
+        width: 100%;
+        height: 496px;
+        @include sm{
+            height: fit-content;
+            margin-top: 20px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,331 @@
+.team_member_card{
+    .team_card{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        @include transition(0.4s);
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        &:hover{
+            .team_card_overly{
+                visibility: visible;
+                opacity: 1;
+                height: 100%;
+                transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+            }
+        }
+    }
+    
+    .team_card_overly{
+        position: absolute;
+                @include transition(0.8s);
+        top: 0;
+        left: 0;
+        background-color: #000;
+        width: 100%;
+        height: 0%;
+        @include flex(column,center,center);
+        padding: 0px 44px;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+                .title
+{
+            h3{
+                font-family: $--font-family;
+                font-weight: 600;
+                font-size: 24px;
+                text-align: center;
+                color:$--white;
+            }
+            p{
+                font-family: $--second-family;
+                font-weight: 400;
+                font-size: 16px;
+                text-align: center;
+                color: #ffffffcc;
+            }
+        }
+        .describtion{
+            p{
+                font-family: $--second-family;
+                font-weight: 400;
+                font-size: 16px;
+                text-align: center;
+                color: #ffffffcc;
+            }
+        }
+        .social_icon{
+            @include flex(row, flex-start, center);
+            gap: 2px;
+            a{
+                display: block;
+                @include transition(0.4s);
+                &:nth-child(1){
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: $--white;
+                    @include border-radius(50%);
+                    color: #000;
+                }
+                &:nth-child(2){
+                    padding: 0px 15px;
+
+                    line-height: 30px;
+                    text-align: center;
+                    background-color: $--white;
+                    @include border-radius(15px);
+                    color: #000;
+                    font-family: $--font-family;
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #020626;
+                }
+                &:hover{
+                    background-color: $--primary;
+                    color: $--white;
+                }
+            }
+        }
+    }
+}
+
+.mission_work_area{
+    background: #eff2f8;
+    .mission_work_image{
+        width: 100%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .progressbar_area{
+        @include flex(column, flex-start, flex-start);
+        width: 100%;
+    }
+    .progress-container {
+        width: 100%;
+    .progress-label {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: bold;
+        span{
+            font-family: $--font-family;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 162%;
+            color: $--text_clr;
+                    
+        }
+    }
+    .progress-bar {
+        width: 100%;
+        height: 5px;
+        background: $--one;
+        // border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+    .progress-fill {
+        height: 100%;
+        width: 0;
+        background: $--primary;
+        position: absolute;
+        top: 0;
+        left: 0;
+        // border-radius: 4px;
+    }
+    }
+    }
+}
+
+.team_details_area{
+    P{
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 162%;
+                color: #142137b3;
+            }
+    .team_details_wrapper{
+        @include flex(row, space-between, center);
+        flex-wrap: wrap;
+        .team_details_image{
+            max-width: 690px;
+            height: 420px;
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .meta_area{
+            border-bottom: 1px solid $--border;
+            .meta_para{
+                P{
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 162%;
+                color: #142137b3;
+            }
+            }
+        }
+        .team_contact_area{
+            ul{
+                padding: 0;
+                @include flex(column, center, flex-start);
+                gap: 6px;
+                li{
+                    font-family: $--font-family;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 162%;
+                    color: #142137b3;
+                    span{
+                        color: $--text_clr;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.blog_social_wrapper{
+    @include flex(row, flex-start, center);
+    gap: 12px;
+    &.style_1{
+        gap: 20px;
+        a{
+            @include border-radius(0px);
+        }
+    }
+    h4{
+        font-family: $--font-family;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 142%;
+        letter-spacing: -0.02em;
+        color: $--text-clr;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        @include flex(row, flex-start, center);
+        gap: 6px;
+        li{
+            a{
+                width: 40px;
+                height: 40px;
+                display: block;
+                line-height: 40px;
+                text-align: center;
+                @include border-radius(50%);
+                background-color: $--primary;
+                color: $--white; color: $--white;
+                @include transition(0.4s);
+                &:hover{
+                    background-color: $--border_bl;
+                    color: $--text-clr;
+                }
+            }
+            &:nth-child(2){
+                   a{
+                     background-color: $--text-clr;
+                    color: $--white;
+                    &:hover{
+                    background-color: $--border_bl;
+                    color: $--text-clr;
+                }
+                   }
+                }
+            &:nth-child(4){
+                   a{
+                     background-color: #cb2027;;
+                    color: $--white;
+                    &:hover{
+                    background-color: $--border_bl;
+                    color: $--text-clr;
+                }
+                   }
+                }
+        }
+    }
+}
+.skills_area{
+    p{
+        font-family: $--font-family;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: #142137b3;
+    }
+    .skills_wrapper{
+        @include flex(row, space-between, center);
+        flex-wrap: wrap;
+        gap: 30px;
+        .skill_img{
+            max-width: 690px;
+            height: 370px;
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+       .progressbar_area{
+            @include flex(column, flex-start, flex-start);
+            width: 100%;
+        }
+        .progress-container {
+            width: 100%;
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+            font-weight: bold;
+            span{
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 162%;
+                color: $--text_clr;
+                        
+            }
+        }
+        .progress-bar {
+            width: 100%;
+            height: 5px;
+            background: $--one;
+            // border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        .progress-fill {
+            height: 100%;
+            width: 0;
+            background: $--primary;
+            position: absolute;
+            top: 0;
+            left: 0;
+            // border-radius: 4px;
+        }
+        }
+        }
+}

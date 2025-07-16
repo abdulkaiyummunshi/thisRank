@@ -1,0 +1,110 @@
+
+.post-title{
+    a{
+        font-family: $--font-family;
+        font-weight: 600;
+        font-size: 34px;
+        color: #020626;
+    }
+}
+.post-thumbnail{
+    width: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.post-content{
+    p{
+        font-family: $--second-family;
+        font-weight: 400;
+        font-size: 16px;
+        color: #020626cc;
+    }
+}
+
+.latest_tech_contains{
+    h2{
+        font-family: $--font-family;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 167%;
+        color: #020626;
+    }
+}
+.list_item{
+    ul{
+        padding: 0px;
+        @include flex(column, center, flex-start);
+        gap: 11px;
+        li{
+            font-family: $--second-family;
+            font-weight: 400;
+            font-size: 16px;
+            color: #020626cc;
+            span{
+                color: $--primary;
+                margin-right: 6px;
+            }
+        }
+    }
+}
+
+.service_process_area{
+    h2{
+        font-family: $--font-family;
+        font-weight: 600;
+        font-size: 34px;
+        color: #020626;
+    }
+    .service_setp{
+        width: 33.33%;
+        @include sm{
+            width: 80%;
+        }
+        p{
+            font-family: $--second-family;
+            font-weight: 400;
+            font-size: 16px;
+            color: #020626cc;
+        }
+        h5{
+            font-family: $--font-family;
+            font-weight: 600;
+            font-size: 16px;
+            color: #020626;
+            margin-top: 7px;
+        }
+        .srv_step_border{
+            height: 1px;
+            width: 100%;
+            background-color: $--border;
+            position: relative;
+            margin-top: 29px;
+            &::before{
+                font-family: "FontAwesome";
+                content: "\f058";
+                color: $--primary;
+                font-size: 25px;
+                position: absolute;
+                top: 50%;
+                @include transformY(-50%);
+                left: 0px;
+                z-index: 40;
+            }
+        }
+    }
+    .service_step_wrapper{
+        @include flex(row, flex-start, center);
+        flex-wrap: wrap;
+        @include md{
+            gap: 30px;
+            justify-content: center;
+        }
+        @include sm{
+            gap: 30px;
+            justify-content: center;
+        }
+    }
+}

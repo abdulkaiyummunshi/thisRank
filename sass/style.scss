@@ -1,0 +1,114 @@
+@import "mixin";
+@import "variables";
+@import "./partials/animation";
+@import "./pages/home_one.scss";
+@import "./pages/home_two.scss";
+@import "./pages/about.scss";
+@import "./pages/contact.scss";
+@import "./partials/header";
+@import "./partials/heading";
+@import "./partials/button";
+@import "./partials/footer";
+@import "./partials/faq";
+@import"./element/meta_info.scss";
+@import "./partials/comment";
+@import "./partials/back_top";
+@import "./partials/preloader";
+@import "./partials/faq";
+@import "./partials/playbtn";
+@import "./partials/mobile-menu";
+@import "./partials/offcanvas";
+@import "./element/list";
+@import "./pages/service_details.scss";
+@import "./pages/team.scss";
+@import "./pages/blog.scss";
+@import "./pages/faq.scss";
+@import "./pages/category.scss";
+@import "./pages/error.scss";
+@import "./element/search";
+
+// blog and blog sidebar unittesting
+@import "./unit_test/blog";
+ @import "./unit_test/blog-details";
+ @import "./unit_test/blog-sidebar";
+@import "./unit_test/pagination";
+// @import "./unit_test/sidebar";
+// @import "./unit_test/unit-test";
+// @import "./unit_test/wp-font-spacing";
+// @import "./unit_test/pages";
+// @import "./unit_test/menu-testing";
+
+@font-face {
+    font-family: "font1";
+    src: url("../webfonts/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "font1";
+    src: url("../webfonts/SourceSansPro-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "font1";
+    src: url("../webfonts/SourceSansPro-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'TestNational2';
+    src: url('../webfonts/TestNational2-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TestNational2';
+    src: url('../webfonts/TestNational2-Medium.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TestNational2';
+    src: url('../webfonts/TestNational2-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+.text-right{
+    text-align: right !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+.common_section{
+    background-color: $--nine;
+}
+
+
+

@@ -1,0 +1,32 @@
+
+.top_mobile_area{
+    background-color: $--nine;
+    @include sm{
+        margin-top: -1px;
+    }
+    .sub_heading{
+        h3{
+            font-family: $--third-family;
+            font-weight: 700;
+            font-size: 26px;
+            text-transform: capitalize;
+            color: $--white;
+            padding: 20px 44px;
+            background-color: $--p5;
+            width: fit-content;
+            @include border-radius(5px); 
+        }
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            @include transformY(-50%);
+            right: 0px;
+            width: calc(100% - 270px);
+            height: 1px;
+            background-color: rgba(204, 204, 204, 0.5);;
+
+        }
+    }
+}

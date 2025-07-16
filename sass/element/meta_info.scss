@@ -1,0 +1,89 @@
+.meta_info{
+    @include flex(row, flex-start, center);
+    gap:15px;
+    span{
+        font-family: $--font-family;
+        font-weight: 400;
+        font-size: 16px;
+        
+            @include nesthubmax{
+                font-size: 14px;
+                line-height: 20px;
+            }
+            @include nesthub{
+                font-size: 14px;
+                line-height: 20px;
+            }
+            @include md{
+                font-size: 14px;
+            }
+            @include sm{
+                font-size: 14px;
+            }
+        color: $--white;
+        i{
+            margin-right: 4px;
+        }
+    }
+    &.style_1{
+        span{
+            color: $--eight;
+        }
+    }
+    &.style_2{
+        span{
+            color: $--seven;
+        }
+    }
+    &.style_3{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        padding: 10px;
+        background-color: $--p4;
+        @include border-radius(5px);
+        span{
+            color: $--white;
+        }
+    }
+}
+
+.contact_card_wrapper{
+    @include flex(row, flex-start, flex-start);
+    gap: 17px;
+    .contact_icon{
+        span{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background-color: #ffffff33;
+            display: block;
+            font-family: $--second-family;
+            font-weight: 900;
+            font-size: 20px;
+            color: $--white;
+            @include border-radius(5px);
+        }
+    }
+    .contact_details{
+        h5{
+            font-family: $--font-family;
+            font-weight: 400;
+            font-size: 16px;
+            color: $--white;
+        }
+        a{
+            font-family: $--font-family;
+            font-weight: 600;
+            font-size: 16px;
+            color: $--white;
+            @include transition(0.4s);
+            &:hover{
+                color: $--primary;
+            }
+        }
+
+
+    }
+}

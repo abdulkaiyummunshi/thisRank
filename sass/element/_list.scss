@@ -1,0 +1,91 @@
+.list_area{
+    ul{
+        padding: 0;
+        @include flex(column, center, flex-start);
+        gap: 16px;
+        li{
+            font-family: $--font-family;
+            color: $--white;
+            font-weight: 600;
+            font-size: 16px;
+            span{
+                font-family: $--second-family;
+                font-weight: 900;
+                font-size: 14px;
+                color: $--p5;
+                
+            }
+        }
+    }
+    &.style_1{
+        ul{
+            @include flex(column, flex-start, flex-start);
+            gap: 30px;
+            @include nesthubmax{
+                gap: 20px;
+            }
+            @include nesthub{ 
+                gap: 20px;
+            }
+            @include md{
+                gap: 15px;
+            }
+            @include sm{
+                gap: 10px;
+            }
+            li{
+                @include flex(row, flex-start, center);
+                gap: 15px;
+                font-family: $--font-family;
+                font-weight: 400;
+                font-size: 16px;
+                color: $--white;
+                span{
+                    width: 24px;
+                    height: 24px;
+                    @include border-radius(50%);
+                    text-align: center;
+                    line-height: 24px;
+                    background-color: $--p5;
+                    color: $--nine ;
+                    display: block;
+                }
+            }
+        }
+        .style_01{
+            @include sm{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.dot_list{
+    ul{
+        padding-left: 10px;
+        list-style-type: disc;
+        p{
+            padding-left: 10px;
+        }
+        li{
+            position: relative;
+            font-family: $--font-family;
+            font-weight: 400;
+            font-size: 16px;
+            color: $--white;
+            margin-left: 8px;
+        }
+    }
+}
+.number_list{
+    ul{
+        list-style-type:decimal;
+        padding-left: 18px;
+        li{
+            font-family: $--font-family;
+            font-weight: 600;
+            font-size: 16px;
+            color: $--white;
+            padding-left: 5px;
+        }
+    }
+}

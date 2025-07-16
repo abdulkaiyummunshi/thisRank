@@ -1,0 +1,132 @@
+
+.contact_area_widget{
+    background-color: $--nine;
+        margin-top: -1px;
+    
+    &{
+        @include sm {
+            .contact_info_wrapper{
+                gap: 20px;
+                padding: 0px 20px;
+                margin-left: 10px;
+
+            }
+        }
+    }
+}
+        .contact_info_wrapper{
+            @include md{
+                gap: 30px !important;
+                
+            }
+            @include sm{
+                gap: 30px !important;
+                
+            }
+            @include flex(row, space-between, center);
+            flex-wrap: wrap;
+            width: 100%;
+            &.style_1{
+                @include sm{
+                    margin-top: 50px;
+                }
+                margin-top: 120px;
+                .contact_info{
+                    margin-left: 20px;
+                    width: 90%;
+                    background-color: $--seven;
+                    border: 1px solid rgba(204, 204, 204, 0.5);
+                    h5, a{
+                        color: $--white;
+                    }
+                }
+            }
+
+            .contact_contains_1{
+                @include flex(row, center, center);
+                
+            }
+            .contact_contains_2{
+                @include flex(row, flex-end, center);
+            }
+            .contact_info{
+                background-color: $--seven;
+                border: 1px solid $--two;
+                border: 1px solid rgba(193, 193, 193, 0.5);
+                border-radius: 5px;
+                width: 410px;
+                height: 122px;
+                @include flex(column, center, flex-start);
+                gap: 5px;
+                padding-left: 68px;
+                position: relative;
+                h5{
+                    font-family: $--third-family;
+                    font-weight: 700;
+                    font-size: 24px;
+                    text-transform: capitalize;
+                    color: $--white;
+                }
+                
+                a{   
+                    font-family: $--font-family;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: $--white;
+                    transition: all 0.3s;
+
+                    &:hover{
+                        color: $--p5;
+                    }
+                }
+                span{
+                    width: 57px;
+                    height: 57px;
+                    background-color: $--p4;
+                    color: $--p5;
+                    font-family: $--second-family;
+                    font-weight: 900;
+                    text-align: center;
+                    line-height: 57px;
+                    position: absolute;
+                    @include border-radius(50%);
+                    top: 50%;
+                    @include transformY(-50%);
+                    left: -30px;
+                    font-size: 20px;
+
+                }
+                &:hover{
+                    span i{
+                        animation: tada 1s linear infinite;
+                    }
+                }
+            }
+        }
+    
+ .contact_info_wrapper{
+            gap: 0px;
+            justify-content: space-between !important;
+        }
+
+.comment_maps{
+    background-color: $--nine;
+    margin-top: -1px;
+    .comment_maps_wrapper{
+        background-color: $--seven;
+        @include border-radius(5px);
+        padding: 60px;
+        @include nesthubmax{
+            padding: 50px;
+        }
+        @include nesthub{
+            padding: 40px;
+        }
+        @include md{
+            padding: 30px;
+        }
+        @include sm{
+            padding: 20px;
+        }
+    }
+}

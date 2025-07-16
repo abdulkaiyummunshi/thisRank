@@ -1,0 +1,116 @@
+.btn_wrapper{
+    a{
+        font-family: $--font-family;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $--nine;
+        padding: 10px 20px;
+        border: 1px solid $--two;
+        @include border-radius(5px);
+        @include transition(0.4s);
+        &:hover{
+            background-color: $--p5;
+            border: 1px solid transparent;
+            color: $--white;
+        }
+    }
+    &.style_1{
+        width: 100% !important;
+       a{
+        width: 100% !important;
+        display: block;
+        &:hover{
+            background-color: $--p5;
+            color: $--white;
+    
+        }
+        &:hover{
+            background-color: $--p5;
+            border: 1px solid transparent;
+            color:  $--white;
+        }
+       }
+        
+    }
+    &.style_2{
+       a{
+        padding: 17px 30px;
+        background-color: $--p5;
+        border: none;
+        font-family: var$--font-family;
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: $--white;
+        span{
+            margin-left: 6px;
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            text-align: center;
+            color: $--white;
+            border: 1px solid $--white;
+            display: inline-block;
+            font-size: 10px;
+            
+        }
+        &:hover{
+            background-color: $--p5;
+            color: $--white;
+        }
+       }
+    }
+    &.style_01{
+        a{
+            color: $--white;
+            background-color: transparent;
+            border: 1px solid $--two;
+            &:hover{
+                background-color: $--p5;
+                border: 1px solid transparent;
+            }
+
+        }
+    }
+}
+
+ .submit_btn{
+        button{
+            @include border-radius(5px);
+            width: fit-content;
+            padding: 15px 30px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-family: $--font-family;
+            font-weight: 700;
+            font-size: 14px;
+            color: $--white;
+            letter-spacing: 0.04em;
+            border: 1px solid transparent;
+            @include transition(0.4s);
+            background-color: $--p5;
+            span{
+                margin-left: 8px;
+                font-weight: 100 !important;
+                font-size: 13px;
+                
+            }
+            &:hover{
+                background-color: $--p5;
+            }
+
+        }
+        &.style_1{
+            button{
+                background-color: $--p4;
+                &:hover{
+                    background-color: $--p5;
+                }
+            }
+        }
+        
+        }
