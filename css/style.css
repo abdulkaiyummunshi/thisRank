@@ -23829,6 +23829,9 @@
   padding-left: 10px; }
   .trending-item a {
     color: #181616; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .trending-item a {
+        font-size: 13px; } }
     .trending-item a:hover {
       text-decoration: underline; }
 

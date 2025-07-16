@@ -2385,6 +2385,9 @@
 
   a{
     color: $--black;
+    @include sm{
+        font-size: 13px;
+    }
 
     &:hover{
         text-decoration: underline;
