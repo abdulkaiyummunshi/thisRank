@@ -473,6 +473,15 @@
 		}
 		.header-right{
 			width: calc(50% - 74px);
+			@include nesthub{
+				@include flex(row, flex-end, center);
+			}
+			@include md{
+				@include flex(row, flex-end, center);
+			}
+			@include sm{
+				@include flex(row, flex-end, center);
+			}
 			gap: 20px;
 			.offcanvas-bar{
 				background-color: transparent;

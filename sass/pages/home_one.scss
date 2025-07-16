@@ -102,7 +102,7 @@
     }
 }
 .header_section{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     @include flex(row, center, center);
 .logo_wrapper{
     @media (min-width:768px) and (max-width:1199px){
@@ -1686,6 +1686,12 @@
 .dont_miss_area{
     .trending_new_card{
         width: calc(100% - 16px);
+        @include md{
+            width: 100%;
+        }
+        @include sm{
+            width: 100%;
+        }
     }
     &.style_1{
         background-color: $--nine;
@@ -2006,8 +2012,16 @@
 
 /*--- Weekly Top Start---*/
 .weekly_top{
-    .trending_new_card{
-        width: calc(100% - 17px);
+    .weekly_top_area{
+        .trending_new_card{
+            width: calc(100% - 17px);
+            @include md{
+                width: 100%;
+            }
+            @include sm{
+                width: 100%;
+            }
+        }
     }
     position: relative;
     &.style_1{
@@ -2276,8 +2290,9 @@
             }
         }
     }
+
     &.style_2{
-        background: linear-gradient(to bottom, $--white 50%, $--nine 50%);
+        background: linear-gradient(to bottom, $--white 50%, $--p4 50%);
 
     }
     .subscribe_wrapper{
