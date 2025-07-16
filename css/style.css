@@ -23834,6 +23834,8 @@
 
 .about_thisrank {
   background-color: #191919; }
+  .about_thisrank .about_thisrank_contains .describtion p {
+    line-height: 20px; }
   .about_thisrank .image {
     border-radius: 312px 312px 0 0;
     max-width: 623px;

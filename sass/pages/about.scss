@@ -1,4 +1,11 @@
 .about_thisrank{
+    .about_thisrank_contains{
+        .describtion {
+            p{
+                line-height: 20px;
+            }
+        }
+    }
     background-color: $--nine;
     .image{
         border-radius: 312px 312px 0 0;
