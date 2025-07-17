@@ -1718,7 +1718,7 @@
     display: block;
     position: absolute;
     right: 53px;
-    top: -57px;
+    top: -84px;
     z-index: 10;
     @include transition(0.4s);
     &:hover{
@@ -1748,7 +1748,7 @@
         display: block;
         position: absolute;
         right: 0px;
-        top: -57px;
+        top: -84px;
         z-index: 10;
         @include transition(0.4s);
         &:hover{
@@ -2306,9 +2306,9 @@
     }
     .subscribe_box{
         // form{
-        //     // @include flex(row, flex-start, center);
-        //     // gap: 20px;
-        //     // flex-wrap: wrap;
+        //     @include flex(row, flex-start, center);
+        //     gap: 20px;
+        //     flex-wrap: wrap;
         // }
         input{
             border: 2px solid rgba(193, 193, 193, 0.3);
