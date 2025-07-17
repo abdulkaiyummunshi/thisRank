@@ -2305,11 +2305,11 @@
         box-shadow: 0 5px 60px 0 rgba(0, 0, 0, 0.05);
     }
     .subscribe_box{
-        form{
-            @include flex(row, flex-start, center);
-            gap: 20px;
-            flex-wrap: wrap;
-        }
+        // form{
+        //     // @include flex(row, flex-start, center);
+        //     // gap: 20px;
+        //     // flex-wrap: wrap;
+        // }
         input{
             border: 2px solid rgba(193, 193, 193, 0.3);
             outline: none;

@@ -23754,13 +23754,6 @@
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .subscribe_area .subscribe_wrapper {
       padding: 20px; } }
-.subscribe_area .subscribe_box form {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap; }
 .subscribe_area .subscribe_box input {
   border: 2px solid rgba(193, 193, 193, 0.3);
   outline: none;
