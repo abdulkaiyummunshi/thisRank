@@ -1695,6 +1695,12 @@
     }
     &.style_1{
         background-color: $--nine;
+        .left-arrow{
+            top: -84px !important;
+        }
+        .right-arrow{
+            top: -84px !important;
+        }
     }
     position: relative;
     .left-arrow{
@@ -1718,7 +1724,8 @@
     display: block;
     position: absolute;
     right: 53px;
-    top: -84px;
+    top: -57px;
+
     z-index: 10;
     @include transition(0.4s);
     &:hover{
@@ -1748,7 +1755,7 @@
         display: block;
         position: absolute;
         right: 0px;
-        top: -84px;
+        top: -57px;
         z-index: 10;
         @include transition(0.4s);
         &:hover{
