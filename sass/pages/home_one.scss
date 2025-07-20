@@ -1,6 +1,7 @@
 .top_bar{
     padding: 20px 0px;
     background-color: $--p4;
+    overflow: hidden;
     &.style_1{
         background-color: $--p5;
     }
@@ -10,9 +11,16 @@
         padding: 10px 0px;
     }
     .row{
+        flex-wrap: nowrap;
+        width: 100%;
         @include sm{
-            .col-lg-5{
+            .col-md-7{
+                width: 62% !important;
+            }
+            .col-md-5{
+                width: 45% !important;
                 justify-content: flex-start !important;
+                padding-left: 0px !important;
             }
         }
     }
@@ -41,6 +49,9 @@
                 font-family: $--font-family;
                 font-weight: 400;
                 font-size: 16px;
+                @include sm{
+                    font-size: 10px;
+                }
                 color: $--white; 
                 padding-right: 10px;
                 position: relative;
@@ -64,6 +75,9 @@
                     font-family: $--font-family;
                     font-weight: 400;
                     font-size: 16px;
+                    @include sm{
+                        font-size: 10px;
+                    }
                     color: $--white;
                     &:hover{
                         color: white;

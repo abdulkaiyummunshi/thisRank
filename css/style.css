@@ -21706,6 +21706,7 @@
 .top_bar {
   padding: 20px 0px;
   background-color: #000;
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -21716,9 +21717,16 @@
     .top_bar {
       height: fit-content;
       padding: 10px 0px; } }
-  @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .top_bar .row .col-lg-5 {
-      justify-content: flex-start !important; } }
+  .top_bar .row {
+    flex-wrap: nowrap;
+    width: 100%; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .top_bar .row .col-md-7 {
+        width: 62% !important; }
+      .top_bar .row .col-md-5 {
+        width: 45% !important;
+        justify-content: flex-start !important;
+        padding-left: 0px !important; } }
   .top_bar .top_contains ul {
     display: flex;
     flex-direction: row;
@@ -21743,6 +21751,9 @@
       color: #fff;
       padding-right: 10px;
       position: relative; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .top_bar .top_contains ul li {
+          font-size: 10px; } }
       .top_bar .top_contains ul li:nth-child(3)::after {
         display: none !important; }
       .top_bar .top_contains ul li::after {
@@ -21764,6 +21775,9 @@
         font-weight: 400;
         font-size: 16px;
         color: #fff; }
+        @media only screen and (min-width: 0px) and (max-width: 767px) {
+          .top_bar .top_contains ul li a {
+            font-size: 10px; } }
         .top_bar .top_contains ul li a:hover {
           color: white;
           text-decoration: underline; }
