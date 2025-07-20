@@ -21736,6 +21736,21 @@
     gap: 10px;
     padding: 0px;
     margin: 0px; }
+    .top_bar .top_contains ul #geo-weather-box ul li:nth-child(3)::after {
+      display: none !important; }
+    .top_bar .top_contains ul #geo-weather-box ul li::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      right: 0px;
+      width: 1px;
+      height: 16px;
+      background-color: #fff; }
     .top_bar .top_contains ul.style_1 {
       justify-content: flex-end; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -21754,21 +21769,6 @@
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .top_bar .top_contains ul li {
           font-size: 10px; } }
-      .top_bar .top_contains ul li:nth-child(3)::after {
-        display: none !important; }
-      .top_bar .top_contains ul li::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        -webkit-transform: translateY(-50%);
-        -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        -o-transform: translateY(-50%);
-        right: 0px;
-        width: 1px;
-        height: 16px;
-        background-color: #fff; }
       .top_bar .top_contains ul li a {
         transition: all 0.4s ease;
         font-family: "font1", sans-serif;

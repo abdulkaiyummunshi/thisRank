@@ -31,7 +31,27 @@
             gap: 10px;
             padding: 0px;
             margin: 0px;
-            
+            #geo-weather-box{
+                ul{
+                    li{
+                        &:nth-child(3){
+                    &::after{
+                        display: none !important;
+                    }
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    @include transformY(-50%);
+                    right: 0px;
+                    width: 1px;
+                    height: 16px;
+                    background-color: $--white;
+                }
+                    }
+                }
+            }
             &.style_1{
                 justify-content: flex-end;
             }
@@ -55,29 +75,12 @@
                 color: $--white; 
                 padding-right: 10px;
                 position: relative;
-                &:nth-child(3){
-                    &::after{
-                        display: none !important;
-                    }
-                }
-                &::after{
-                    content: "";
-                    position: absolute;
-                    top: 50%;
-                    @include transformY(-50%);
-                    right: 0px;
-                    width: 1px;
-                    height: 16px;
-                    background-color: $--white;
-                }
                 a{
                     @include transition(0.4s);
                     font-family: $--font-family;
                     font-weight: 400;
                     font-size: 16px;
-                    &::after{
-                        display: none;
-                    }
+                    
                     @include sm{
                         font-size: 10px;
                     }
