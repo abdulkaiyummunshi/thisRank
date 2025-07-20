@@ -22155,6 +22155,9 @@
   .hero_area .hero_card_wrapper.style_3 {
     background-image: url(../image/category/category1.png);
     height: 530px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .hero_area .hero_card_wrapper.style_3 {
+        height: 400px; } }
     .hero_area .hero_card_wrapper.style_3 .overly {
       background: linear-gradient(180deg, rgba(16, 26, 35, 0) 0%, rgba(16, 26, 35, 0.8) 100%); }
     .hero_area .hero_card_wrapper.style_3 h3 a {
@@ -22170,7 +22173,7 @@
           font-size: 20px; } }
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .hero_area .hero_card_wrapper.style_3 h3 a {
-          font-size: 20px; } }
+          font-size: 18px; } }
   .hero_area .hero_card_wrapper .overly {
     position: absolute;
     border-radius: 5px;
@@ -23068,7 +23071,7 @@
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .trending_new_card .image {
       width: 100% !important;
-      height: fit-content !important; }
+      height: !important; }
       .trending_new_card .image img {
         width: 100%;
         height: 1000%;
@@ -23290,6 +23293,9 @@
 .trending_category {
   background-color: #f7f7ff;
   position: relative; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .trending_category .slick-slide {
+      margin: 0px 0px !important; } }
   .trending_category.style_1 {
     background-color: #0d0d0d; }
     .trending_category.style_1 .category_contains {

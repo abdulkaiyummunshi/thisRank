@@ -518,6 +518,9 @@
         &.style_3{
             background-image:url(../image/category/category1.png);
             height: 530px;
+            @include sm{
+                height: 400px;
+            }
             .overly{
                 background: linear-gradient(180deg, rgba(16, 26, 35, 0) 0%, rgba(16, 26, 35, 0.8) 100%);
             }
@@ -533,7 +536,7 @@
                         font-size: 20px;
                     }
                     @include sm{
-                        font-size: 20px;
+                        font-size: 18px;
                     }
                     color: $--white;
                 }
@@ -1531,7 +1534,7 @@
     .image{
         @include sm{
             width: 100% !important;
-            height: fit-content !important;
+            height: 295px !important;
             img{
                 width: 100%;
                 height: 1000%;
