@@ -176,6 +176,9 @@
     ul{
         @include flex(row, flex-start, center);
         gap: 20px;
+        @include sm{
+            gap: 10px;
+        }
         li{
             &.heart_icon{
                 a{
@@ -193,6 +196,9 @@
                 font-family: $--font-family;
                 font-weight: 700;
                 font-size: 14px;
+                @include sm{
+                    font-size: 12px;
+                }
                 letter-spacing: 0.04em;
                 text-transform: uppercase;
                 color: $--nine;
