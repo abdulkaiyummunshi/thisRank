@@ -30,7 +30,7 @@ $font-family: "Source Sans 3", sans-serif;
             gap: 25px;
             flex-wrap: wrap;
 span{
-  color: $text;
+  color: $--text_clr;
 }
             @include sm{
               gap: 20px;
