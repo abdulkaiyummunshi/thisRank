@@ -12,6 +12,10 @@
             text-transform: capitalize;
             color: $--white;
             padding: 20px 44px;
+            @include sm{
+                padding: 12px 32px;
+                font-size: 22px;
+            }
             background-color: $--p5;
             width: fit-content;
             @include border-radius(5px); 

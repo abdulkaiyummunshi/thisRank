@@ -22995,8 +22995,8 @@
       left: 220px; }
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .trending_new_card.style_6 .date {
-          top: 24px;
-          left: 180px; } }
+          top: 70px;
+          left: 130px; } }
       .trending_new_card.style_6 .date span {
         background-color: #cda64e;
         padding: 5px 20px;
@@ -27405,6 +27405,10 @@
       -webkit-border-radius: 5px;
       -ms-border-radius: 5px;
       -o-border-radius: 5px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .top_mobile_area .sub_heading h3 {
+          padding: 12px 32px;
+          font-size: 22px; } }
     .top_mobile_area .sub_heading::before {
       content: "";
       position: absolute;
