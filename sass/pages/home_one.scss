@@ -101,6 +101,27 @@
         }
         
     }
+    .col-md-5{
+        ul{
+            li{
+                &:nth-child(3){
+                    &::after{
+                        display: none !important;
+                    }
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    @include transformY(-50%);
+                    right: 0px;
+                    width: 1px;
+                    height: 16px;
+                    background-color: $--white;
+                }
+            }
+        }
+    }
 }
 .logo_card{
         

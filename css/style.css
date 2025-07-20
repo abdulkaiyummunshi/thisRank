@@ -21783,6 +21783,21 @@
           text-decoration: underline; }
   .top_bar .top_contains.style-2 ul > li > a:hover {
     color: #cda64e; }
+  .top_bar .col-md-5 ul li:nth-child(3)::after {
+    display: none !important; }
+  .top_bar .col-md-5 ul li::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    right: 0px;
+    width: 1px;
+    height: 16px;
+    background-color: #fff; }
 
 .logo_card {
   padding: 23px 30px;
