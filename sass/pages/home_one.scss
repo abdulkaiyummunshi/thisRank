@@ -1098,7 +1098,7 @@
     .trending_contains{
         width: calc(100% - 150px);
        @include sm{
-        padding: 0px 0px 15px 15px;
+        padding: 17px !important;
        }
     }
     .image{
@@ -1521,6 +1521,9 @@
                 }
                 @include md{
                     font-size: 22px;
+                }
+                @include sm{
+                    font-size: 18px;
                 }
                 text-transform: capitalize;
                 color: $--white;
