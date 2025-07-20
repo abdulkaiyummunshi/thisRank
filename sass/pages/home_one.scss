@@ -1820,6 +1820,11 @@
 .trending_category{
     background-color: #f7f7ff;
     position: relative;
+    .slick-slide{
+        @include sm{
+            margin: 0px 0px !important;
+        }
+    }
     &.style_1{
         background-color: $--seven;
         .category_contains{
