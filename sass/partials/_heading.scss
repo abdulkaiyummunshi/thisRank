@@ -5,6 +5,9 @@
             font-family: $--third-family;
             font-weight: 700;
             font-size: 36px;
+            @include sm{
+                font-size: 22px;
+            }
             color: $--p4;
         }
         

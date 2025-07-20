@@ -22210,6 +22210,10 @@
     .hero_area .hero_card_wrapper h3 a:hover {
       color: #cda64e; }
 
+.elementor-147 .elementor-element.elementor-element-d1da652 .hero_card_wrapper .title h3 a {
+  font-size: 17px;
+  line-height: 22px; }
+
 .sidebar_content {
   border-radius: 5px;
   -moz-border-radius: 5px;
@@ -24650,6 +24654,9 @@
     font-weight: 700;
     font-size: 36px;
     color: #000; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .heading_area .sub_heading h3 {
+        font-size: 22px; } }
   .heading_area .sub_heading.style_1::after {
     content: "";
     position: absolute;
