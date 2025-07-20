@@ -24151,11 +24151,11 @@
         -moz-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         -o-transform: translateY(-50%);
-        right: 7px;
-        font-size: 14px;
+        right: 8px;
+        font-size: 20px;
         transition: all 0.4s ease; }
       .header-wrap .main-menu ul li.menu-item-has-children:hover::after {
-        margin-top: -10px;
+        margin-top: -15px;
         color: #cda64e;
         transform: rotate(180deg);
         -webkit-transform: rotate(180deg);
