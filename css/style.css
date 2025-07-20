@@ -23071,7 +23071,7 @@
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .trending_new_card .image {
       width: 100% !important;
-      height: !important; }
+      height: 295px !important; }
       .trending_new_card .image img {
         width: 100%;
         height: 1000%;
@@ -23835,6 +23835,9 @@
   text-transform: uppercase;
   color: #fff;
   padding: 17px 40px; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .subscribe_area .subscribe_box button {
+      margin-top: 15px; } }
 .subscribe_area .image {
   max-width: 308px;
   width: 100%;
