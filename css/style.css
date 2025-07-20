@@ -24365,6 +24365,16 @@
         border-top: 0px;
         border-top: 2px solid var(--theme-color); }
 
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  #menu-main-menu-1 {
+    display: none; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #menu-main-menu-1 {
+    display: none; } }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  #menu-main-menu-1 {
+    display: none; } }
+
 .header-1 {
   box-shadow: 0px 30px 60px 0 rgba(0, 0, 0, 0.05);
   background: #fff;
