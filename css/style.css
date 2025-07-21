@@ -27912,31 +27912,40 @@
       -webkit-border-radius: 10px;
       -ms-border-radius: 10px;
       -o-border-radius: 10px;
-      border: 1px solid #9ba8c3;
+      border: 1px solid rgba(193, 193, 193, 0.5);
       font-weight: 400;
       transition: all 0.4s ease;
       font-size: 14px; }
       .blog-post-tag .post-tag-list a:hover {
         background-color: #cda64e; }
 
-.social-share span {
-  font-size: 22px; }
-.social-share a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border: 1px solid rgba(193, 193, 193, 0.5);
-  text-align: center;
-  font-size: 16px;
-  color: #fff;
-  transition: all 0.4s ease; }
-  .social-share a:hover {
-    background-color: #cda64e; }
+.social-share {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px; }
+  .social-share span {
+    font-size: 22px;
+    color: #fff;
+    margin-right: 10px; }
+  .social-share a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid rgba(193, 193, 193, 0.5);
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.4s ease; }
+    .social-share a:hover {
+      background-color: #cda64e; }
 
 .blog-area {
   position: relative;
