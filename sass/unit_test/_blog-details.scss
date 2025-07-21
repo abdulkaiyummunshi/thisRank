@@ -5,7 +5,7 @@
   gap: 15px;
   .title{
     color: $--white;
-    font-size: 20px;
+    font-size: 22px;
     font-family: $--font-family;
 
   }
@@ -16,13 +16,32 @@
       padding: 5px 10px;
       color: $--white;
       @include border-radius(10px);
-      border: 1px solid #9ba8c3;
+      border: 1px solid rgba(193, 193, 193, 0.5);
       font-weight: 400;
       @include transition(0.4s);
       font-size: 14px;
       &:hover{
         background-color: $--primary;
       }
+    }
+  }
+}
+.social-share{
+  span{
+    font-size: 22px;
+  }
+  a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    @include border-radius(50%);
+    border: 1px solid rgba(193, 193, 193, 0.5);
+    text-align: center;
+    font-size: 16px;
+    color: $--white;
+    @include transition(0.4s);
+    &:hover{
+      background-color: $--primary;
     }
   }
 }

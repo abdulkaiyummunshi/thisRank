@@ -27896,7 +27896,7 @@
   gap: 15px; }
   .blog-post-tag .title {
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     font-family: "font1", sans-serif; }
   .blog-post-tag .post-tag-list {
     display: flex;
@@ -27918,6 +27918,25 @@
       font-size: 14px; }
       .blog-post-tag .post-tag-list a:hover {
         background-color: #cda64e; }
+
+.social-share span {
+  font-size: 22px; }
+.social-share a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid rgba(193, 193, 193, 0.5);
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  transition: all 0.4s ease; }
+  .social-share a:hover {
+    background-color: #cda64e; }
 
 .blog-area {
   position: relative;
