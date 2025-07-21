@@ -25883,6 +25883,9 @@
   font-weight: 600;
   font-size: 34px;
   color: #020626; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .post-title a {
+      font-size: 26px; } }
 
 .post-thumbnail {
   width: 100%; }
