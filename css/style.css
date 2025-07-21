@@ -24466,7 +24466,8 @@
       padding: 0 30px; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .header-1 {
-      padding: 0px 5px; } }
+      padding: 0px 5px;
+      height: 90px !important; } }
   .header-1 .header-wrap {
     height: 90px; }
     @media only screen and (min-width: 992px) and (max-width: 1024px) {
