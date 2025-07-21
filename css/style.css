@@ -24486,9 +24486,18 @@
     .header-1 .header-wrap .header-right {
       width: calc(50% - 74px);
       gap: 20px; }
+      @media (min-width: 1280px) and (max-width: 1400px) {
+        .header-1 .header-wrap .header-right {
+          width: calc(50% - 180px); } }
       @media only screen and (min-width: 1025px) and (max-width: 1280px) {
         .header-1 .header-wrap .header-right {
           width: calc(50% - 160px); } }
+      @media (min-width: 1024px) and (max-width: 1200px) {
+        .header-1 .header-wrap .header-right {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center; } }
       @media only screen and (min-width: 992px) and (max-width: 1024px) {
         .header-1 .header-wrap .header-right {
           display: flex;

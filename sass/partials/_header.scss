@@ -483,8 +483,15 @@
 		}
 		.header-right{
 			width: calc(50% - 74px);
+			@media (min-width: 1280px) and (max-width: 1400px){
+				width: calc(50% - 180px);
+				
+			}
 			@include nesthubmax{
 				width: calc(50% - 160px);
+			}
+			@media (min-width: 1024px) and (max-width: 1200px){
+				@include flex(row, flex-end, center);
 			}
 			@include nesthub{
 				@include flex(row, flex-end, center);
