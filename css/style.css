@@ -28597,7 +28597,7 @@
           display: none; } }
     .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-title {
       font-size: 40px;
-      color: #07000e;
+      color: #fff;
       font-weight: 700;
       margin-top: 20px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -28892,9 +28892,9 @@
         justify-content: center;
         align-items: center;
         padding: 4px 10px;
-        border: 1px solid  red;
+        border: 1px solid #02062624;
         border-radius: 50px;
-        color: #4a494a;
+        color: #fff;
         font-size: 14px;
         font-weight: 400; }
         .blog-area .blog-details-wrapper .single-post-item.format-audio .post-content-wrapper .single-post-meta .blog-post-cat .post-cat-list span a:hover {

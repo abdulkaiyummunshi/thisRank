@@ -1148,7 +1148,7 @@
             }
             .post-title{        
               font-size: 40px;
-              color: #07000e;
+              color: $--white;
               font-weight: 700;
               margin-top: 20px;
       
@@ -1538,9 +1538,9 @@
                     justify-content: center;
                     align-items: center;
                     padding: 4px 10px;
-                    border: 1px solid  red;
+                    border: 1px solid  $--border;
                     border-radius: 50px;
-                    color:  $gray-800;
+                    color:  $--white;
                     font-size: 14px;
                     font-weight: 400;
                     &:hover {
