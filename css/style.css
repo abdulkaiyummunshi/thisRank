@@ -24440,10 +24440,12 @@
   height: 90px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-1 {
-      margin-top: -1px; } }
+      margin-top: -1px;
+      height: 90px; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .header-1 {
-      margin-top: -1px; } }
+      margin-top: -1px;
+      height: 90px; } }
   .header-1.style_1 {
     background-color: #000; }
   @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -24471,19 +24473,19 @@
         height: 80px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .header-1 .header-wrap {
-        height: 70px; } }
+        height: 90px; } }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .header-1 .header-wrap {
-        height: 60px; } }
+        height: 90px; } }
     .header-1 .header-wrap .logo a {
       width: 100px;
       display: block;
-      height: 45px;
+      height: 60px;
       margin-left: -13px; }
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .header-1 .header-wrap .logo a {
-          height: 45px;
-          margin-left: -22px; } }
+          height: 60px;
+          margin-left: -19px; } }
       .header-1 .header-wrap .logo a img {
         width: 100%;
         height: 100%;

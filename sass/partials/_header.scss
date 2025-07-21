@@ -426,9 +426,12 @@
 	padding-bottom: 100px;
 	@include md{
 		margin-top: -1px;
+		height: 90px;
 	}
 	@include sm{
 		margin-top: -1px;
+		height: 90px;
+
 	}
 	&.style_1{
 		background-color: $--p4;
@@ -460,10 +463,10 @@
 			height: 80px;
 		}
 		@include md{
-			height: 70px;
+			height: 90px;
 		}
 		@include sm{
-			height: 60px;
+			height: 90px;
 		}
 		
 
@@ -471,10 +474,10 @@
 			a{
 				width: 100px;
 				display: block;
-				height: 45px;
+				height: 60px;
 				margin-left: -13px;
 				@include sm{
-					height: 45px;
+					height: 60px;
 					margin-left: -19px;
 				}
 				
