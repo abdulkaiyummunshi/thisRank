@@ -24448,7 +24448,8 @@
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .header-1 {
       margin-top: -1px;
-      height: 90px; } }
+      height: 90px;
+      background-color: red; } }
   .header-1.style_1 {
     background-color: #000; }
   @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -27906,6 +27907,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   gap: 15px; }
   .blog-post-tag .title {
     color: #fff;
