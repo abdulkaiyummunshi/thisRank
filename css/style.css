@@ -29157,6 +29157,9 @@
       .post-comments-form .post-comments-title h2 {
         font-size: 28px; } }
 
+.comment-form-cookies-consent label {
+  color: #fff; }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .comment-form .contacts-name,
   .comment-form .contacts-email {

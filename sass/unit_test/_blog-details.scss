@@ -1921,8 +1921,12 @@
   }
 
 }
+.comment-form-cookies-consent{ 
+  label{
+    color: $--white;
+  }
+}
 .comment-form{
-  
   .contacts-name,
   .contacts-email{
   @include  md{
