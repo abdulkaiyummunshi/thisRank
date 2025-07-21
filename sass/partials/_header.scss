@@ -446,9 +446,6 @@
 	@include md{
 		height: 70px;
 	}
-	@include sm{
-		height: 60px;
-	}
 	@include breakpoint(max-xl){
 		padding: 0 40px;
 	}
