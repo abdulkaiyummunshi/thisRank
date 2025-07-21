@@ -28427,7 +28427,8 @@
       .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
         font-size: 32px;
         font-weight: 700;
-        margin-bottom: 5px; }
+        margin-bottom: 5px;
+        color: #fff; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .blog-area .blog-details-wrapper .single-post-item .default-single-post-meta .blog-post-cat span {
             font-size: 28px; } }
