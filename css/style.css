@@ -25882,10 +25882,13 @@
   font-family: "font1", sans-serif;
   font-weight: 600;
   font-size: 34px;
+  transition: all 0.4s ease;
   color: #020626; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .post-title a {
       font-size: 26px; } }
+  .post-title a:hover {
+    color: #cda64e; }
 
 .post-thumbnail {
   width: 100%; }
@@ -28550,7 +28553,7 @@
       align-items: center;
       margin-top: 20px; }
       .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta a {
-        color: black; }
+        color: #fff; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .post-meta {
           gap: 15px; } }
@@ -28693,9 +28696,9 @@
         justify-content: center;
         align-items: center;
         padding: 4px 10px;
-        border: 1px solid  red;
+        border: 1px solid #02062624;
         border-radius: 50px;
-        color: #4a494a;
+        color: #fff;
         font-size: 14px;
         font-weight: 400; }
         .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .single-post-meta .blog-post-cat .post-cat-list span a:hover {
