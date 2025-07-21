@@ -27888,6 +27888,36 @@
   color: #ffffff; }
 
 /*==================BLOG DETAILS ARE===================*/
+.blog-post-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px; }
+  .blog-post-tag .title {
+    color: #fff;
+    font-size: 20px;
+    font-family: "font1", sans-serif; }
+  .blog-post-tag .post-tag-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; }
+    .blog-post-tag .post-tag-list a {
+      padding: 8px 10px;
+      color: #fff;
+      border-radius: 10px;
+      -moz-border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      border: 1px solid #02062624;
+      font-weight: 400;
+      font-size: 17px; }
+      .blog-post-tag .post-tag-list a:hover {
+        background-color: #cda64e; }
+
 .blog-area {
   position: relative;
   overflow: hidden;
