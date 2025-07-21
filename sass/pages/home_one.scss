@@ -30,6 +30,9 @@
             @include flex(row, flex-start, center);
             flex-wrap: wrap;
             gap: 10px;
+            @include sm{
+                gap: 5px;
+            }
             padding: 0px;
             margin: 0px;
             #geo-weather-box{

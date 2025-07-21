@@ -21736,6 +21736,9 @@
     gap: 10px;
     padding: 0px;
     margin: 0px; }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .top_bar .top_contains ul {
+        gap: 5px; } }
     .top_bar .top_contains ul #geo-weather-box ul li:nth-child(3)::after {
       display: none !important; }
     .top_bar .top_contains ul #geo-weather-box ul li::after {
