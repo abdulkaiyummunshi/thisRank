@@ -21883,59 +21883,61 @@
     background-color: #cda64e;
     border: 1px solid transparent; }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .btn_area .heart_icon {
-    display: none; } }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .btn_area .heart_icon {
-    display: none; } }
-.btn_area ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px; }
+.btn_area {
+  background-color: green; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .btn_area .heart_icon {
+      display: none; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .btn_area ul {
-      gap: 10px; } }
-  .btn_area ul li.heart_icon a {
-    font-size: 20px;
-    padding: 13.5px 15px; }
+    .btn_area .heart_icon {
+      display: none; } }
+  .btn_area ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
-      .btn_area ul li.heart_icon a {
-        padding: 7px 7px;
-        font-size: 15px; } }
-  .btn_area ul li a {
-    padding: 17px 20px;
-    border: 1px solid #c1c1c1;
-    font-family: "font1", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #191919;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: all 0.4s ease; }
-    @media only screen and (min-width: 0px) and (max-width: 767px) {
-      .btn_area ul li a {
-        font-size: 12px; } }
-    .btn_area ul li a:hover {
-      background-color: #000;
-      color: #fff;
+      .btn_area ul {
+        gap: 10px; } }
+    .btn_area ul li.heart_icon a {
+      font-size: 20px;
+      padding: 13.5px 15px; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .btn_area ul li.heart_icon a {
+          padding: 7px 7px;
+          font-size: 15px; } }
+    .btn_area ul li a {
+      padding: 17px 20px;
+      border: 1px solid #c1c1c1;
+      font-family: "font1", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #191919;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      transition: all 0.4s ease; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .btn_area ul li a {
+          font-size: 12px; } }
+      .btn_area ul li a:hover {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid transparent; }
+      @media only screen and (min-width: 0px) and (max-width: 767px) {
+        .btn_area ul li a {
+          padding: 8px 10px; } }
+  .btn_area.style_1 ul li a {
+    border: 1.25px solid rgba(193, 193, 193, 0.5);
+    color: #fff; }
+    .btn_area.style_1 ul li a:hover {
+      background-color: #cda64e;
       border: 1px solid transparent; }
-    @media only screen and (min-width: 0px) and (max-width: 767px) {
-      .btn_area ul li a {
-        padding: 8px 10px; } }
-.btn_area.style_1 ul li a {
-  border: 1.25px solid rgba(193, 193, 193, 0.5);
-  color: #fff; }
-  .btn_area.style_1 ul li a:hover {
-    background-color: #cda64e;
-    border: 1px solid transparent; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ads_area {
