@@ -16,6 +16,9 @@
         @include sm{
             .col-md-7{
                 width: 100% !important;
+                .d-small-none{
+                    display: block !important;
+                }
             }
             .col-md-5{
                 display: none;
@@ -68,7 +71,7 @@
                 font-weight: 400;
                 font-size: 16px;
                 @include sm{
-                    font-size: 10px;
+                    font-size: 13px;
                 }
                 color: $--white; 
                 padding-right: 10px;
@@ -80,7 +83,7 @@
                     font-size: 16px;
                     
                     @include sm{
-                        font-size: 10px;
+                        font-size: 13px;
                     }
                     color: $--white;
                     &:hover{
