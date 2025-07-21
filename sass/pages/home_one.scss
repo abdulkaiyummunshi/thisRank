@@ -15,12 +15,10 @@
         width: 100%;
         @include sm{
             .col-md-7{
-                width: 66% !important;
+                width: 100% !important;
             }
             .col-md-5{
-                width: 45% !important;
-                justify-content: flex-start !important;
-                padding-left: 0px !important;
+                display: none;
             }
         }
     }
