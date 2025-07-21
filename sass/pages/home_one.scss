@@ -218,6 +218,11 @@
     // @include sm{
     //     margin-top: 30px;
     // }
+    .heart_icon{
+        @include sm{
+            display: none;
+        }
+    }
     ul{
         @include flex(row, flex-start, center);
         gap: 20px;

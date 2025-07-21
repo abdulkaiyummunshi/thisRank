@@ -21883,6 +21883,9 @@
     background-color: #cda64e;
     border: 1px solid transparent; }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .btn_area .heart_icon {
+    display: none; } }
 .btn_area ul {
   display: flex;
   flex-direction: row;
