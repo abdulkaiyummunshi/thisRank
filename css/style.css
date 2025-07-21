@@ -27889,6 +27889,7 @@
 
 /*==================BLOG DETAILS ARE===================*/
 .blog-post-tag {
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -27920,6 +27921,7 @@
         background-color: #cda64e; }
 
 .social-share {
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
