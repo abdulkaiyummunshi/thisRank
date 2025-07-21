@@ -27952,6 +27952,9 @@
     .social-share a:hover {
       background-color: #cda64e; }
 
+.logged-in-as {
+  color: #fff; }
+
 .blog-area {
   position: relative;
   overflow: hidden;
