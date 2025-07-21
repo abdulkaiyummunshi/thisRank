@@ -24448,7 +24448,8 @@
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .header-1 {
       margin-top: -1px;
-      height: 90px !important; } }
+      height: 90px !important;
+      background-color: red; } }
   .header-1.style_1 {
     background-color: #000; }
   @media only screen and (min-width: 992px) and (max-width: 1024px) {
