@@ -29135,6 +29135,9 @@
   .blog-area .blog-details-wrapper .single.single-post #respond {
     margin-bottom: 2rem; }
 
+.comment-form .contacts-name label {
+  color: #020626; }
+
 .post-comments-form {
   margin-top: 40px; }
   .post-comments-form .post-comments-title h2 {
@@ -29165,7 +29168,7 @@
 .comment-form .contacts-email label {
   font-size: 18px;
   font-weight: 500;
-  color: #4a494a; }
+  color: #020626; }
 .comment-form .contacts-name input,
 .comment-form .contacts-email input {
   height: 50px;
@@ -29188,7 +29191,7 @@
   .comment-form .contacts-message label {
     font-size: 18px;
     font-weight: 500;
-    color: #4a494a; }
+    color: #020626; }
   .comment-form .contacts-message textarea {
     width: 100%;
     margin-top: 5px;

@@ -1894,7 +1894,9 @@
 
   }
 }
-
+.comment-form .contacts-name label{
+  color: $--text_clr;
+}
 //comment form 
 .post-comments-form {
   margin-top: 40px;
@@ -1931,7 +1933,7 @@
     label{
       font-size: 18px;
       font-weight: 500;
-      color:  $gray-800;
+      color:  $--text_clr;
     }
     input{
       height: 50px;
@@ -1963,7 +1965,7 @@
     label{
       font-size: 18px;
       font-weight: 500;
-      color:  $gray-800;
+      color:  $--text_clr;
     }
     textarea{
       width: 100%;
