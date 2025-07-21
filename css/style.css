@@ -24444,12 +24444,11 @@
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-1 {
       margin-top: -1px;
-      height: 90px; } }
+      height: 90px !important; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .header-1 {
       margin-top: -1px;
-      height: 90px;
-      background-color: red; } }
+      height: 90px !important; } }
   .header-1.style_1 {
     background-color: #000; }
   @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -24477,10 +24476,10 @@
         height: 80px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .header-1 .header-wrap {
-        height: 90px; } }
+        height: 90px !important; } }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .header-1 .header-wrap {
-        height: 90px; } }
+        height: 90px !important; } }
     .header-1 .header-wrap .logo a {
       width: 100px;
       display: block;
@@ -24488,7 +24487,7 @@
       margin-left: -13px; }
       @media only screen and (min-width: 0px) and (max-width: 767px) {
         .header-1 .header-wrap .logo a {
-          height: 60px;
+          height: 60px !important;
           margin-left: -19px; } }
       .header-1 .header-wrap .logo a img {
         width: 100%;
