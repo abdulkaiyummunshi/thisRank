@@ -473,6 +473,10 @@
 				display: block;
 				height: 45px;
 				margin-left: -13px;
+				@include sm{
+					height: 40px;
+					margin-left: -22px;
+				}
 				
 				img{
 					width: 100%;
