@@ -25772,7 +25772,7 @@
         .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li:not(:last-child) {
           margin-bottom: 15px; }
         .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li .offcanvas__contact-icon {
-          margin-right: 20px; }
+          margin-right: 10px; }
           .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li .offcanvas__contact-icon i {
             color: var(--theme-color); }
     .offcanvas__wrapper .offcanvas__content .offcanvas__contact span {
