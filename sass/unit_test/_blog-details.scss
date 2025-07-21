@@ -13,13 +13,13 @@
     @include flex(row, flex-start, center);
     gap: 10px;
     a{
-      padding: 8px 10px;
+      padding: 5px 10px;
       color: $--white;
       @include border-radius(10px);
-      border: 1px solid $--border;
+      border: 1px solid #9ba8c3;
       font-weight: 400;
       @include transition(0.4s);
-      font-size: 17px;
+      font-size: 14px;
       &:hover{
         background-color: $--primary;
       }
