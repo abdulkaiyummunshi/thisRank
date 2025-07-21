@@ -3,6 +3,7 @@
 .blog-post-tag {
   margin-top: 30px;
   @include flex(row, flex-start, center);
+  flex-wrap: wrap;
   gap: 15px;
   .title{
     color: $--white;
@@ -30,6 +31,7 @@
 .social-share{
   margin-top: 30px;
   @include flex(row, flex-start, center);
+  flex-wrap: wrap;
   gap: 10px;
   span{
     font-size: 22px;
@@ -1291,6 +1293,10 @@
               
             }
             .single-post-meta {
+              &.social{
+                flex-wrap: wrap;
+
+              }
               display: flex;
               justify-content: space-between;
               align-items: center;

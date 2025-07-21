@@ -215,10 +215,10 @@
     }
 }
 .btn_area{
-    // @include sm{
-    //     margin-top: 30px;
-    // }
     .heart_icon{
+        @include md{
+            display: none;
+        }
         @include sm{
             display: none;
         }

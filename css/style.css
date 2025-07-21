@@ -21883,6 +21883,9 @@
     background-color: #cda64e;
     border: 1px solid transparent; }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .btn_area .heart_icon {
+    display: none; } }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .btn_area .heart_icon {
     display: none; } }
@@ -27935,6 +27938,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px; }
   .social-share span {
     font-size: 22px;
@@ -28765,6 +28769,8 @@
       justify-content: space-between;
       align-items: center;
       padding-top: 40px; }
+      .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .single-post-meta.social {
+        flex-wrap: wrap; }
       @media only screen and (min-width: 0px) and (max-width: 576px) {
         .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .single-post-meta {
           flex-wrap: wrap; } }
