@@ -29050,11 +29050,17 @@
         height: 96px;
         position: relative;
         flex-shrink: 0;
+        overflow: hidden;
         border-radius: 8px;
-        overflow: hidden; }
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px; }
         @media only screen and (min-width: 0px) and (max-width: 576px) {
           .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .post-img {
             display: none; } }
+      .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text span {
+        color: #fff; }
       .blog-area .blog-details-wrapper .blog-post-nav .post-navigation .text a {
         font-family: "font1", sans-serif;
         font-weight: 400;

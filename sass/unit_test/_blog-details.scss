@@ -1697,14 +1697,17 @@
             height: 96px;
             position: relative;
             flex-shrink: 0;
-            border-radius: 8px;
             overflow: hidden;
-
-            @include  xs{
+            @include border-radius(8px);
+           @include  xs{
               display: none;
             }
           }
-
+          .text{
+            span{
+              color: $--white;
+            }
+          }
             .text a{
                 font-family: $--font-family;
                 font-weight: 400;
