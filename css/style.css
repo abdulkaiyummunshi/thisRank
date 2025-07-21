@@ -24418,6 +24418,9 @@
         border-top: 0px;
         border-top: 2px solid var(--theme-color); }
 
+@media (min-width: 1024px) and (max-width: 1198px) {
+  #menu-main-menu-1 {
+    display: none; } }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   #menu-main-menu-1 {
     display: none; } }

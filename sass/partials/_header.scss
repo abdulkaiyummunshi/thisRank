@@ -406,6 +406,9 @@
 	  }
 }
 #menu-main-menu-1{
+	@media (min-width: 1024px) and (max-width:1198px){
+		display: none;
+	}
 	@include nesthub{
 		display: none;
 	}
