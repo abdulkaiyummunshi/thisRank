@@ -1895,7 +1895,7 @@
   }
 }
 .comment-form .contacts-name label{
-  color: $--text_clr;
+  color: $--white;
 }
 //comment form 
 .post-comments-form {
@@ -1933,7 +1933,7 @@
     label{
       font-size: 18px;
       font-weight: 500;
-      color:  $--text_clr;
+      color:  $--white;
     }
     input{
       height: 50px;
@@ -1965,7 +1965,7 @@
     label{
       font-size: 18px;
       font-weight: 500;
-      color:  $--text_clr;
+      color:  $--white;
     }
     textarea{
       width: 100%;

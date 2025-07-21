@@ -29136,7 +29136,7 @@
     margin-bottom: 2rem; }
 
 .comment-form .contacts-name label {
-  color: #020626; }
+  color: #fff; }
 
 .post-comments-form {
   margin-top: 40px; }
@@ -29168,7 +29168,7 @@
 .comment-form .contacts-email label {
   font-size: 18px;
   font-weight: 500;
-  color: #020626; }
+  color: #fff; }
 .comment-form .contacts-name input,
 .comment-form .contacts-email input {
   height: 50px;
@@ -29191,7 +29191,7 @@
   .comment-form .contacts-message label {
     font-size: 18px;
     font-weight: 500;
-    color: #020626; }
+    color: #fff; }
   .comment-form .contacts-message textarea {
     width: 100%;
     margin-top: 5px;
