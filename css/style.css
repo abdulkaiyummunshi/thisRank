@@ -21704,7 +21704,7 @@
     transform: translateX(50vw);
     transform: translateX(50vw); } }
 .top_bar {
-  padding: 20px 0px;
+  padding: 10px 0px;
   background-color: #000;
   overflow: hidden;
   display: flex;
@@ -23881,7 +23881,7 @@
     color: #181616; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .trending-item a {
-        font-size: 13px; } }
+        font-size: 11px; } }
     .trending-item a:hover {
       text-decoration: underline; }
 
